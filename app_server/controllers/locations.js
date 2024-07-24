@@ -1,16 +1,16 @@
 /* GET 'home' page */
 const homelist = (req, res) => {
     res.render('locations-list', {
-    title: 'Loc8r - find a place to work with wifi',
+    title: 'Pharmacy Management system',
     pageHeader: {
-    title: 'Locr',
-    strapline: 'Find places to work with wifi near you!'
+    title: 'PMS',
+    strapline: '_____Pharmacies near you!_____'
     },
     locations: [{
-    name: 'Starcups',
-    address: '1256 High Street, Reading, RG6 1PS',
+    name: 'Anurag Pharmacy',
+    address: '8-37 Neelima hospital road Jodimetla Pocharam',
     rating: 3,
-    facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+    // facilities: ['Hot drinks', 'Food', 'Premium wifi'],
     distance: '100m'
     },{
     name: 'Cafe Hero',
